@@ -42,7 +42,7 @@ function App() {
     <>
       <div id="quote-box">
         <div id="text" className={`fade ${fade ? "" : "hidden"}`}>
-          <img src="../public/quote-page.svg" id="quote-img" />
+          <img src="quote-page.svg" id="quote-img" />
           <span>{quote}</span>
         </div>
         <div id="author" className={`fade ${fade ? "" : "hidden"}`}>
@@ -55,7 +55,7 @@ function App() {
               id="tweet-quote"
               target="_blank"
             >
-              <img src="../public/twitter.svg" alt="twitter" />
+              <img src="twitter.svg" alt="twitter" />
             </a>
           </div>
           <button onClick={fetchQuote}>New Quote</button>
