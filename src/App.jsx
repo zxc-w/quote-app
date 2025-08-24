@@ -42,7 +42,10 @@ function App() {
     <>
       <div id="quote-box">
         <div id="text" className={`fade ${fade ? "" : "hidden"}`}>
-          <img src="../quote-page.svg" id="quote-img" />
+          <img
+            src="https://zxc-w.github.io/quote-app/quote-page.svg"
+            id="quote-img"
+          />
           <span>{quote}</span>
         </div>
         <div id="author" className={`fade ${fade ? "" : "hidden"}`}>
@@ -55,7 +58,10 @@ function App() {
               id="tweet-quote"
               target="_blank"
             >
-              <img src="../twitter.svg" alt="twitter" />
+              <img
+                src="https://zxc-w.github.io/quote-app/twitter.svg"
+                alt="twitter"
+              />
             </a>
           </div>
           <button onClick={fetchQuote}>New Quote</button>
